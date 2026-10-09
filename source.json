@@ -1,0 +1,19 @@
+{
+  "name": "DocMe Tools",
+  "id": "com.docme.listing",
+  "url": "https://DocMeVR.github.io/vpm/index.json",
+  "author": {
+    "name": "DocMe",
+    "email": "docme2nd@gmail.com",
+    "url": "https://github.com/DocMeVR"
+  },
+  "description": "Free tools for VRChat avatars by DocMe.",
+  "infoLink": {
+    "text": "GitHub",
+    "url": "https://github.com/DocMeVR"
+  },
+  "bannerUrl": "banner.png",
+  "githubRepos": [
+    "DocMeVR/eye-installer"
+  ]
+}
