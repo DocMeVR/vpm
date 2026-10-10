@@ -14,6 +14,7 @@ https://docmevr.github.io/vpm/index.json
 |---|---|
 | [DocMe Eye Installer](https://github.com/DocMeVR/eye-installer) (`com.docme.eye-installer`) | Puts a procedural eye shader onto an avatar in four guided steps. |
 | [DocMe Hide Mesh Islands](https://github.com/DocMeVR/hide-islands) (`com.docme.hide-islands`) | Hides small parts of a mesh (highlights, stickers) without editing the model. The eye installer depends on it. |
+| [DocMe AvatarDoc](https://github.com/DocMeVR/AvatarDoc) (`dev.docme.avatar-doctor`) | Toggles, radials, submenus and triggers for an avatar's menu, built at upload through NDMF. In English, Japanese and Simplified Chinese. Needs NDMF (from the Modular Avatar listing). |
 
 ## How the listing updates
 
