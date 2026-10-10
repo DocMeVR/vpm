@@ -33,6 +33,12 @@ jobs:
       - name: Checkout Local Repository
         uses: actions/checkout@v4
 
+      # The listing tool is a .NET 6 app; the runner image does not always carry that runtime.
+      - name: Install .NET 6
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 6.0.x
+
       - name: Checkout Automation Repository
         uses: actions/checkout@v4
         with:
