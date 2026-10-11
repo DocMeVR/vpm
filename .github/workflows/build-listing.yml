@@ -9,7 +9,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 4 * * *"   # once a day as a safety net; releases trigger the rebuild through package-released
   repository_dispatch:
     types: [package-released]
 
