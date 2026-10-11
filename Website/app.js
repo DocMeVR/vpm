@@ -90,6 +90,10 @@ const setTheme = () => {
   const vccAddRepoButton = document.getElementById('vccAddRepoButton');
   vccAddRepoButton.addEventListener('click', () => window.location.assign(`vcc://vpm/addRepo?url=${encodeURIComponent(LISTING_URL)}`));
 
+  // NDMF is not mirrored here: AvatarDoc needs its author's listing, offered as a second one-click add.
+  const ndmfAddRepoButton = document.getElementById('ndmfAddRepoButton');
+  if (ndmfAddRepoButton) ndmfAddRepoButton.addEventListener('click', () => window.location.assign(`vcc://vpm/addRepo?url=${encodeURIComponent('https://vpm.nadena.dev/vpm.json')}`));
+
   const vccUrlFieldCopy = document.getElementById('vccUrlFieldCopy');
   vccUrlFieldCopy.addEventListener('click', () => {
     const vccUrlField = document.getElementById('vccUrlField');
