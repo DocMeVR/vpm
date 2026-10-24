@@ -15,6 +15,7 @@ https://docmevr.github.io/vpm/index.json
 | [DocMe Eye Installer](https://github.com/DocMeVR/eye-installer) (`com.docme.eye-installer`) | Puts a procedural eye shader onto an avatar in four guided steps. |
 | [DocMe Hide Mesh Islands](https://github.com/DocMeVR/hide-islands) (`com.docme.hide-islands`) | Hides small parts of a mesh (highlights, stickers) without editing the model. The eye installer depends on it. |
 | [DocMe AvatarDoc](https://github.com/DocMeVR/AvatarDoc) (`dev.docme.avatar-doctor`) | Toggles, radials, submenus and triggers for an avatar's menu, built at upload through NDMF. In English, Japanese and Simplified Chinese. Needs NDMF from its official listing (see below). |
+| [DocMe Mask Painter](https://github.com/DocMeVR/mask-painter) (`com.docme.mask-painter`) | Paints black and white masks right on the avatar in the Scene view and puts them into any material slot. |
 
 NDMF (`nadena.dev.ndmf`, by bd_, MIT) is listed here too, straight from its own GitHub releases, so AvatarDoc installs without adding another listing. If you also have the Modular Avatar listing, both offer the same NDMF files.
 
