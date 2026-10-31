@@ -18,8 +18,6 @@ https://docmevr.github.io/vpm/index.json
 | [DocMe Simple Shader UI](https://github.com/DocMeVR/SimpleShaderGUI) (`com.docme.shader-ui`) | Builds a shader's material inspector from its Properties block: sections, tooltips, help boxes and a search, with no inspector code. English and Japanese. |
 | [DocMe AvatarDoc](https://github.com/DocMeVR/AvatarDoc) (`dev.docme.avatar-doctor`) | Toggles, radials, submenus and triggers for an avatar's menu, built at upload through NDMF. In English, Japanese and Simplified Chinese. Needs NDMF from its official listing (see below). |
 
-NDMF (`nadena.dev.ndmf`, by bd_, MIT) is listed here too, straight from its own GitHub releases, so AvatarDoc installs without adding another listing. If you also have the Modular Avatar listing, both offer the same NDMF files.
-
 ## NDMF
 
 AvatarDoc is built on NDMF, which is not part of this listing: it comes from its author's own listing, so updates and fixes arrive straight from the source. Add that listing to VCC as well:
